@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nae AI — Your Smart AI Assistant</title>
+<meta name="description" content="Nae AI is your smart AI assistant for ideas, writing, answers and everyday tasks.">
+<style>
+:root{--bg:#070b17;--card:#10172a;--text:#f7f8ff;--muted:#aab3c8;--accent:#7c5cff;--accent2:#20d9c5}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;background:radial-gradient(circle at 80% 10%,#1c1644 0,transparent 30%),var(--bg);color:var(--text);line-height:1.6}
+nav{max-width:1100px;margin:auto;padding:20px;display:flex;align-items:center;justify-content:space-between} .logo{font-size:28px;font-weight:800;letter-spacing:-1px}.logo span{color:var(--accent2)}
+nav a{color:#dce2f3;text-decoration:none;margin-left:24px;font-size:14px}.navbtn{background:var(--accent);padding:10px 16px;border-radius:10px}
+.hero{max-width:1100px;margin:45px auto 0;padding:60px 20px 90px;display:grid;grid-template-columns:1.1fr .9fr;gap:50px;align-items:center}
+.badge{display:inline-block;background:#151d35;border:1px solid #293353;padding:7px 12px;border-radius:99px;color:#cbd3eb;font-size:13px}
+h1{font-size:clamp(46px,7vw,78px);line-height:1.02;letter-spacing:-4px;margin:18px 0}h1 span{background:linear-gradient(90deg,#8d70ff,#25dbc9);-webkit-background-clip:text;color:transparent}
+.hero p{font-size:19px;color:var(--muted);max-width:600px}.buttons{display:flex;gap:12px;margin-top:28px;flex-wrap:wrap}.btn{padding:14px 20px;border-radius:12px;text-decoration:none;font-weight:700;display:inline-block}.primary{background:var(--accent);color:#fff}.secondary{border:1px solid #35405f;color:#fff;background:#0e1426}
+.phone{background:linear-gradient(145deg,#171d36,#0c1121);border:1px solid #303a5b;border-radius:30px;padding:18px;box-shadow:0 25px 80px #0008;max-width:340px;margin:auto;transform:rotate(2deg)}
+.screen{background:#080c18;border-radius:22px;padding:22px;min-height:430px}.bubble{padding:13px 15px;border-radius:16px;margin:12px 0;font-size:14px}.user{background:#24204b;margin-left:35px}.ai{background:#151e32;margin-right:20px}.ai strong{color:var(--accent2)}
+section{max-width:1100px;margin:auto;padding:80px 20px}.center{text-align:center}.center p{color:var(--muted);max-width:650px;margin:10px auto 35px}h2{font-size:42px;line-height:1.1;margin:0 0 10px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:linear-gradient(145deg,#11192c,#0d1323);border:1px solid #252f4c;border-radius:18px;padding:26px}.icon{font-size:30px}.card h3{margin:12px 0 6px}.card p{color:var(--muted);margin:0}.cta{background:linear-gradient(135deg,#211653,#0d2830);border:1px solid #39335f;border-radius:28px;padding:55px 30px;text-align:center}.cta p{color:#c1c8da}.contact{display:grid;grid-template-columns:1fr 1fr;gap:25px}.contact a{color:#fff;text-decoration:none}.note{font-size:13px;color:#7f8aa5;margin-top:12px}footer{border-top:1px solid #202940;padding:30px 20px;color:#8791a8;text-align:center;margin-top:40px}
+@media(max-width:760px){nav a:not(.navbtn){display:none}.hero{grid-template-columns:1fr;padding-top:30px}.phone{transform:none}.grid,.contact{grid-template-columns:1fr}h1{letter-spacing:-2px}h2{font-size:34px}}
+</style>
+</head>
+<body>
+<nav>
+  <div class="logo">Nae<span>AI</span></div>
+  <div><a href="#features">Features</a><a href="#about">About</a><a class="navbtn" href="#download">Get Nae AI</a></div>
+</nav>
+
+<main>
+<section class="hero">
+  <div>
+    <span class="badge">✨ Your intelligent everyday assistant</span>
+    <h1>Think smarter.<br><span>Create more.</span></h1>
+    <p>Nae AI helps you turn questions, ideas and everyday tasks into useful answers—fast, simple and accessible.</p>
+    <div class="buttons">
+      <a class="btn primary" href="#download">Get Started</a>
+      <a class="btn secondary" href="#features">Explore Features</a>
+    </div>
+    <div class="note">App download links can be added when your app is published.</div>
+  </div>
+  <div class="phone">
+    <div class="screen">
+      <div style="font-weight:800;font-size:20px">Nae AI</div>
+      <div class="bubble user">Help me turn this idea into a business plan.</div>
+      <div class="bubble ai"><strong>Nae AI</strong><br>Absolutely. Let's break your idea into a clear plan with goals, customers, pricing and next steps.</div>
+      <div class="bubble user">Make it simple.</div>
+      <div class="bubble ai"><strong>Nae AI</strong><br>Done. Here's a simple step-by-step version you can start with today.</div>
+    </div>
+  </div>
+</section>
+
+<section id="features">
+  <div class="center"><h2>One AI. Many possibilities.</h2><p>Built to help you get more done without making things complicated.</p></div>
+  <div class="grid">
+    <div class="card"><div class="icon">💬</div><h3>Ask Anything</h3><p>Get clear answers, explanations and ideas for everyday questions.</p></div>
+    <div class="card"><div class="icon">✍️</div><h3>Create & Write</h3><p>Draft stories, captions, messages, plans and other content with AI assistance.</p></div>
+    <div class="card"><div class="icon">💡</div><h3>Bring Ideas to Life</h3><p>Brainstorm concepts, improve ideas and turn rough thoughts into useful plans.</p></div>
+    <div class="card"><div class="icon">📚</div><h3>Learn Faster</h3><p>Break down difficult topics into simple, understandable explanations.</p></div>
+    <div class="card"><div class="icon">⚡</div><h3>Save Time</h3><p>Let Nae AI help with repetitive thinking and first drafts so you can focus on what matters.</p></div>
+    <div class="card"><div class="icon">🌍</div><h3>Made for Everyone</h3><p>A simple experience designed for people, creators, students and businesses.</p></div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="cta">
+    <h2>Meet Nae AI</h2>
+    <p>Nae AI is designed to make useful artificial intelligence feel simple and approachable. Whether you are creating, learning, planning or looking for an answer, Nae AI is here to help.</p>
+  </div>
+</section>
+
+<section id="download">
+  <div class="center">
+    <h2>Ready to try Nae AI?</h2>
+    <p>Your app store buttons can be connected here once Nae AI is published.</p>
+    <div class="buttons" style="justify-content:center">
+      <a class="btn primary" href="mailto:hello@naeai.app">Contact Nae AI</a>
+      <a class="btn secondary" href="#features">See Features</a>
+    </div>
+    <div class="note">Replace hello@naeai.app with your real business email before publishing.</div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="contact">
+    <div><h2>Let's build with AI.</h2><p style="color:var(--muted)">Have a question, partnership idea or feedback? We'd love to hear from you.</p></div>
+    <div class="card"><h3>Contact</h3><p><a href="mailto:hello@naeai.app">hello@naeai.app</a></p><p class="note">Update this email with your official Nae AI address.</p></div>
+  </div>
+</section>
+</main>
+
+<footer>© 2026 Nae AI. All rights reserved.</footer>
+</body>
+</html>
